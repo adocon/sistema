@@ -1,0 +1,11 @@
+usar as  para hacer alias de campos 
+o juntar nombre y apellido .. nombre completo
+tambien sirve por si levantamos otra base que tenga diferentes campos , para no tocar el codigo 
+o la base se hace uso de as 
+
+$consulta="SELECT apUsuario as apellido, nombUsuario as nombre FROM usarios";
+$resultado=realizarConsulta($consulta);
+fechassoc, devuelve un array asociativo 
+while ($usuario=$resultado->fetch_assoc()){
+ echo
+}
